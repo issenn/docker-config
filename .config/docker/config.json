@@ -1,0 +1,11 @@
+{
+  "experimental" : "disabled",
+  "credSstore" : "osxkeychain",
+  "credsStore" : "desktop",
+  "stackOrchestrator" : "swarm",
+  "auths" : {
+    "https://index.docker.io/v1/" : {
+
+    }
+  }
+}
