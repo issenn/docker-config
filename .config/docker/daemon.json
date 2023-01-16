@@ -1,4 +1,27 @@
 {
+  "builder": {
+    "gc": {
+      "defaultKeepStorage": "20GB",
+      "enabled": true
+    }
+  },
   "debug": true,
-  "experimental": false
+  "dns": [
+    "192.168.65.2",
+    "192.168.65.5",
+    "101.6.6.6",
+    "149.112.112.112",
+    "1.1.1.1",
+    "223.5.5.5"
+  ],
+  "dns-search": [
+    "docker.internal",
+    "docker.localhost",
+    "docker.local",
+    "docker.lan"
+  ],
+  "experimental": false,
+  "features": {
+    "buildkit": true
+  }
 }
